@@ -39,6 +39,7 @@ Tableau files in the Tableau folder shows the clustering visualizations as displ
 **Requirements:** <br>
 
 * Python 3.7 <br>
+* Tableau 2019.2
 
 **Python Libraries Required:**<br>
 
@@ -48,6 +49,9 @@ Tableau files in the Tableau folder shows the clustering visualizations as displ
 * matplotlib.pyplot<br>
 * nltk<br>
 * gensim<br>
+* os-win<br>
+* regex<br>
+
 
 Python libraries above can be installed via `pip`. Note that we only tested with the versions above, newer versions might not work.
 
