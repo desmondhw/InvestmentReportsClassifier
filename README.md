@@ -27,7 +27,7 @@ Run 'TFIDF_best.py' for clustering using TFIDF vectorization.<br>
 Run 'word2vec_best.py' for clustering using word embeddings.<br>
 Run 'findSentiment.py' first which will generate 'sentiment_forInputs.xlsx'. Then 'Sentiment_Analysis.py' for Logistic Regression Classifier of invesment sentiments.<br><br>
 
-Both TFIDF and word2vec clustering both gave good purities (96-97%)
+Both TFIDF and word2vec clustering gave good purities (96-97%)
 Opted to work with the TFIDF clustering model as it was simpler, and had fewer parameters to optimize.
 
 
