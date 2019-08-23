@@ -11,7 +11,7 @@ Pls contact desmondhw@gmail.com for any questions.
 
 **Data**:<br>
 
-Research reports from a prominent investment bank was used. The data are in pickle format - banking.pkl, healthcare.pkl, realestate.pkl, energy.pkl.
+Research reports from a prominent investment bank was used. The data is in pickle format - banking.pkl, healthcare.pkl, realestate.pkl, energy.pkl.
 
 **Codes**:
 Follow these steps sequentially for runnings Python files in the Codes folder:<br>
@@ -33,6 +33,8 @@ Opted to work with the TFIDF clustering model as it was simpler, and had fewer p
 
 **Report**:
 Our full report can be found in: 'Text Analytics Project_Report_Group5_final.docx'
+
+Tableau files in the Tableau folder shows the clustering visualizations as displayed in the report.
 
 **Requirements:** <br>
 
