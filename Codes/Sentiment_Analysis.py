@@ -17,10 +17,10 @@ from functions import *
 
 # Load pickle files
 
-healthcare = openPickle('Healthcare.pkl')
-realestate = openPickle('Realestate.pkl')
-banking = openPickle('Banking.pkl')
-energy = openPickle('Energy.pkl')
+healthcare = openPickle('healthcare.pkl')
+realestate = openPickle('realestate.pkl')
+banking = openPickle('banking.pkl')
+energy = openPickle('energy.pkl')
 
 ##### GET FEATURE WORDS ###########
 
