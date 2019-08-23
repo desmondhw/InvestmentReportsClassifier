@@ -22,10 +22,14 @@ Follow these steps sequentially for runnings Python files in the Codes folder:<b
 3) Download 'stopwords.txt'. This file contains the list of stopwords the team came up with manually that was more suited for our buisness problem<br>
 
 4) Download and <br>
-Run 'TF_best.py' for <br>
-Run 'TFIDF_best.py' for <br>
-Run 'word2vec_best.py' for <br>
-Run 'findSentiment.py' first which will generate 'sentiment_forInputs.xlsx'. Then 'Sentiment_Analysis.py'.
+Run 'TF_best.py' for  clustering using TF vectorization.<br>
+Run 'TFIDF_best.py' for clustering using TFIDF vectorization.<br>
+Run 'word2vec_best.py' for clustering using word embeddings.<br>
+Run 'findSentiment.py' first which will generate 'sentiment_forInputs.xlsx'. Then 'Sentiment_Analysis.py' for Logistic Regression Classifier of invesment sentiments.<br><br>
+
+Both TFIDF and word2vec clustering both gave good purities (96-97%)
+Opted to work with the TFIDF clustering model as it was simpler, and had fewer parameters to optimize.
+
 
 **Report**:
 Our full report can be found in: 'Text Analytics Project_Report_Group5_final.docx'
