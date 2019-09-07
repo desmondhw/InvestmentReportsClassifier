@@ -32,6 +32,10 @@ N=4 # no. of clusters
 # Use filenames as labels
 with open('labels.pkl', 'rb') as f:
     labels = pickle.load(f)
+    
+with open('labels_files.pkl', 'rb') as f:
+    labels_files = pickle.load(f)
+    
 L = len(labels)
 # Init stopwords
 stopwords = getStopWords('stopwords.txt')
