@@ -59,6 +59,9 @@ print()
 ####################CLUSTER######################################
 #################################################################
 
+with open('labels_files.pkl', 'rb') as f:
+    labels_files = pickle.load(f)
+
 all_purity = []
 
 for i in range(10):
